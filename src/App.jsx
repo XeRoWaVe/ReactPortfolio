@@ -7,13 +7,13 @@ import Skills from "./Components/Skills/Skills";
 
 function App() {
   return (
-    <div className="">
+    <main className="text-gray-400 bg-gray-900 body-font">
       <Nav />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
-    </div>
+      </main>
   );
 }
 
