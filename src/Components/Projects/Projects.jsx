@@ -1,9 +1,19 @@
+import { useRef } from "react";
 import { projects } from "../../data";
+import { useIsVisible } from "../../util";
 
-const Projects = () => {
+const Projects = ({ transition }) => {
+  const ref = useRef();
+  const isVisible = useIsVisible(ref);
+
   return (
-    <section id="projects" className="text-gray-400 bg-m2 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+    <section id="projects" className={`text-gray-400 bg-m2 body-font`}>
+      <div
+        ref={ref}
+        className={`container px-5 py-10 mx-auto mt-20 text-center lg:px-40 transition-opacity ease-in duration-1000 delay-75 ${
+          isVisible ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
@@ -19,7 +29,8 @@ const Projects = () => {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
