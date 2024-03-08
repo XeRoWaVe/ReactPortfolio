@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { projects } from "../../data";
 import { useIsVisible } from "../../util";
 
-const Projects = ({ transition }) => {
+const Projects = () => {
   const ref = useRef();
   const isVisible = useIsVisible(ref);
 
