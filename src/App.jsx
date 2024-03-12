@@ -11,13 +11,8 @@ import { motion } from "framer-motion";
 
 function App() {
 
-  const particlesInit = useCallback(async engine => {
-    await loadFull(engine)
-  }, [])
 
-  const particlesLoaded = useCallback(async container => {
-    await console.log(container)
-  }, [])
+
 
   return (
     <main className="text-gray-400 bg-gray-900 body-font">

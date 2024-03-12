@@ -8,12 +8,12 @@ export const projects = [
     link: "https://statuesque-nasturtium-3f2f32.netlify.app",
   },
   {
-    title: "React Reddit App",
-    subTitle: "React+Vite Stack",
+    title: "Dopamine Dumpster",
+    subTitle: "Movie/Show Finder App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/redditappthumb.png",
-    link: "https://statuesque-nasturtium-3f2f32.netlify.app",
+    image: "./src/assets/dopadumpthumb.png",
+    link: "https://dopaminedumpster.netlify.app",
   },
   {
     title: "React Reddit App",
