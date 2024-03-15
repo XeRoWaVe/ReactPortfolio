@@ -10,17 +10,17 @@ function Menu({ showMenu, setShowMenu }) {
           </a>
         </li>
         <li className="flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
-          <a className="h-full w-full py-2 text-lg text-white" href="/" onClick={() => setShowMenu(false)}>
+          <a className="h-full w-full py-2 text-lg text-white" href="#about" onClick={() => setShowMenu(false)}>
             About
           </a>
         </li>
         <li className="flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
-          <a className="h-full w-full py-2 text-lg text-white" href="/" onClick={() => setShowMenu(false)}>
+          <a className="h-full w-full py-2 text-lg text-white" href="#projects" onClick={() => setShowMenu(false)}>
             Projects
           </a>
         </li>
         <li className="flex w-full leading-8 list-none focus:outline-none group py-2 tracking-normal opacity-50 hover:opacity-100 transition-all duration-200 ease-in-out">
-          <a className="h-full w-full py-2 text-lg text-white" href="/" onClick={() => setShowMenu(false)}>
+          <a className="h-full w-full py-2 text-lg text-white" href="#skills" onClick={() => setShowMenu(false)}>
             Skills
           </a>
         </li>
