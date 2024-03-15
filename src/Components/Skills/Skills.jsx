@@ -1,4 +1,4 @@
-import { skills } from "../../data";
+import { skills } from "../../../public/data";
 import { useRef } from "react";
 import { useIsVisible } from "../../util";
 import { AnimatePresence, motion } from "framer-motion";

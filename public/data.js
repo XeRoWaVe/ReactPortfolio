@@ -4,7 +4,7 @@ export const projects = [
     subTitle: "React+Vite Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/redditappthumb.png",
+    image: "./public/assets/redditappthumb.png",
     link: "https://statuesque-nasturtium-3f2f32.netlify.app",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subTitle: "Movie/Show Finder App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/dopadumpthumb.png",
+    image: "./public/assets/dopadumpthumb.png",
     link: "https://dopaminedumpster.netlify.app",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subTitle: "React+Vite Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/redditappthumb.png",
+    image: "./public/assets/redditappthumb.png",
     link: "https://statuesque-nasturtium-3f2f32.netlify.app",
   },
 ];
@@ -28,22 +28,22 @@ export const projects = [
 export const skills = [
   {
     skill: "HTML",
-    image: "./src/assets/html.png",
+    image: "./public/assets/html.png",
     id: {x:-400, y:-400, opacity: 0}
   },
   {
     skill: "CSS",
-    image: "./src/assets/css-3.png",
+    image: "./public/assets/css-3.png",
     id: {x:400, y:-400, opacity: 0}
   },
   {
     skill: "Javascript",
-    image: "./src/assets/java-script.png",
+    image: "./public/assets/java-script.png",
     id: {x:-400, y:400, opacity: 0}
   },
   {
     skill: "React",
-    image: "./src/assets/atom.png",
+    image: "./public/assets/atom.png",
     id: {x:400, y:400, opacity: 0}
   },
 ];
