@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { projects } from "../../../public/data";
+import { projects } from "../../data";
 import { useIsVisible } from "../../util";
 
 const Projects = () => {

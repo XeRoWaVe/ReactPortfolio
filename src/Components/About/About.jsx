@@ -51,7 +51,7 @@ const About = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={`/public/assets/mugshot2023.jpeg`}
+            src={`/src/assets/mugshot2023.jpeg`}
           />
         </motion.div>
       </div>

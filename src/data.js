@@ -1,10 +1,12 @@
+import javascriptURL from './assets/java-script.png'
+
 export const projects = [
   {
     title: "React Reddit App",
     subTitle: "React+Vite Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/public/assets/redditappthumb.png",
+    image: "/src/assets/redditappthumb.png",
     link: "https://statuesque-nasturtium-3f2f32.netlify.app",
   },
   {
@@ -12,7 +14,7 @@ export const projects = [
     subTitle: "Movie/Show Finder App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/public/assets/dopadumpthumb.png",
+    image: "/src/assets/dopadumpthumb.png",
     link: "https://dopaminedumpster.netlify.app",
   },
   {
@@ -20,7 +22,7 @@ export const projects = [
     subTitle: "React+Vite Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "/public/assets/redditappthumb.png",
+    image: "/src/assets/redditappthumb.png",
     link: "https://statuesque-nasturtium-3f2f32.netlify.app",
   },
 ];
@@ -28,33 +30,33 @@ export const projects = [
 export const skills = [
   {
     skill: "HTML",
-    image: "/public/assets/html.png",
+    image: "/src/assets/html.png",
     id: {x:-400, y:-400, opacity: 0}
   },
   {
     skill: "CSS",
-    image: "/public/assets/css-3.png",
+    image: "/src/assets/css-3.png",
     id: {x:400, y:-400, opacity: 0}
   },
   {
     skill: "Javascript",
-    image: "/public/assets/java-script.png",
+    image: {javascriptURL},
     id: {x:-400, y:400, opacity: 0}
   },
   {
     skill: "React",
-    image: "/public/assets/atom.png",
+    image: "/src/assets/atom.png",
     id: {x:400, y:400, opacity: 0}
   },
   {
     skill: "Typescript",
-    image: '/public/assets/typescript-def-512.png',
+    image: '/src/assets/typescript-def-512.png',
     id: {x: -800, y:800, opacity: 0}
 
   },
   {
     skill: "Nextjs",
-    image: '/public/assets/next-js.png',
+    image: '/src/assets/next-js.png',
     id: {x:800, y:800, opacity: 0}
   }
 ];
