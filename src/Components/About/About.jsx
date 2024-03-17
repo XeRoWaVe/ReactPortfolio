@@ -21,7 +21,7 @@ const About = () => {
             <br className="hidden lg:inline-block" />I am an aspiring Web Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            My father coded for Lockheed Martin, but passed away before he could teach me the craft. Ever since I've wanted to learn how to code, but life has a way of getting in the way. I'm finally taking the time to learn and I'm loving it. I've learned HTML, CSS, Javascript, and React by finishing the Front End Engineer course on Codecademy.com. I am now currently dabbling with Typescript and Next.js to further my understanding of web development. My end game is becoming a full-stack developer.
+            My father was a software engineer for the Defense Industry, but passed away before he could teach me the craft. Ever since I've wanted to learn how to code, but life has a way of getting in the way. I'm finally taking the time to learn and I'm loving it. I've learned HTML, CSS, Javascript, and React by finishing the Front End Engineer course on Codecademy.com. I have begun learning Typescript and Next.js to further my understanding of web development.
           </p>
           <div className="flex justify-center">
             <a
