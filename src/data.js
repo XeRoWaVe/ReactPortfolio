@@ -15,14 +15,6 @@ export const projects = [
     image: " /images/dopadumpthumb.png",
     link: "https://dopaminedumpster.netlify.app",
   },
-  {
-    title: "React Reddit App",
-    subTitle: "React+Vite Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: " /images/redditappthumb.png",
-    link: "https://statuesque-nasturtium-3f2f32.netlify.app",
-  },
 ];
 
 export const skills = [
