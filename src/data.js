@@ -39,13 +39,13 @@ export const skills = [
     id: {x:400, y:400, opacity: 0}
   },
   {
-    skill: "Typescript",
+    skill: "Typescript (Learning)",
     image: ' /images/typescript-def-512.png',
     id: {x: -800, y:800, opacity: 0}
 
   },
   {
-    skill: "Nextjs",
+    skill: "Nextjs (Learning)",
     image: ' /images/next-js.png',
     id: {x:800, y:800, opacity: 0}
   }
