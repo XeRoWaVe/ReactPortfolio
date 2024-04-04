@@ -8,7 +8,7 @@ const Skills = () => {
   const isVisible = useIsVisible(ref);
 
   return (
-    <section id="skills" className="bg-m2">
+    <section id="skills" className="bg-m2 m-40">
       <div
         ref={ref}
         className={`container px-5 py-10 mx-auto transition-opacity ease-in duration-1000 delay-75 ${
@@ -37,7 +37,7 @@ const Skills = () => {
             key={skill.id} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <img
-                  className="text-green-400 w-6 h-6 flex-shrink-0 mr-4"
+                  className="text-green-400 w-6 flex-shrink-0 mr-4"
                   src={skill.image}
                 />
                 <span className="title-font font-medium text-white">

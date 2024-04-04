@@ -19,8 +19,8 @@ function App() {
         <Menu showMenu={showMenu} setShowMenu={setShowMenu} />
       </div>
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />
     </main>
   );
