@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useIsVisible } from "../../util";
 import { motion } from "framer-motion";
 
@@ -6,6 +6,28 @@ import { motion } from "framer-motion";
 const About = () => {
   const ref = useRef();
   const isVisible = useIsVisible(ref);
+  const [mode, setMode] = useState('Light')
+
+  
+  const handleClick = () => {
+    if (mode === 'Dark') {
+      setMode('Light')
+      document.documentElement.classList.add('dark')
+
+    } else if (mode === 'Light') {
+      setMode('Dark')
+      document.documentElement.classList.remove('dark')
+    }
+      
+      // Whenever the user explicitly chooses light mode
+      
+      
+      // Whenever the user explicitly chooses dark mode
+      
+      
+      // Whenever the user explicitly chooses to respect the OS preference
+      localStorage.removeItem('theme')
+  }
 
   return (
     <section id="about">
@@ -16,26 +38,27 @@ const About = () => {
         }`}
       >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium dark:text-white text-black">
             Hi, I'm Aaron.
             <br className="hidden lg:inline-block" />I am an aspiring Web Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            My father was a software engineer for the Defense Industry, but passed away before he could teach me the craft. Ever since I've wanted to learn how to code, but life has a way of getting in the way. I'm finally taking the time to learn and I'm loving it. I've learned HTML, CSS, Javascript, and React by finishing the Front End Engineer course on Codecademy.com. I have begun learning Typescript and Next.js to further my understanding of web development.
+            My father was a software engineer for the Defense Industry, so coding has always been in my DNA. I've always wanted to learn how to code, but life kept getting in the way. I've finally found the time to learn and I'm loving it. I've learned HTML, CSS, Javascript, and React by finishing the Front End Engineer course on Codecademy.com. Since then I've incorporated Typescript into my latest projects.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex dark:text-white dark:bg-green-500 bg-red-500 text-black border-0 py-2 px-6 focus:outline-none dark:hover:bg-green-600 hover:bg-red-600 rounded text-lg"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-black bg-gray-200 hover:bg-gray-300 dark:text-gray-400 dark:bg-gray-800 border-0 py-2 px-6 focus:outline-none dark:hover:bg-gray-700 dark:hover:text-white rounded text-lg"
             >
               See My Past Work
             </a>
+            <button onClick={handleClick} className="ml-4 inline-flex text-black bg-gray-200 hover:bg-gray-300 dark:text-gray-400 dark:bg-gray-800 border-0 py-2 px-6 focus:outline-none dark:hover:bg-gray-700 dark:hover:text-white rounded text-lg">Enable {mode} Mode</button>
           </div>
         </div>
         <motion.div 

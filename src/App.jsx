@@ -10,10 +10,9 @@ import Menu from "./Components/Menu/Menu";
 function App() {
   const [showMenu, setShowMenu] = useState(false);
 
-  return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-            
 
+  return (
+    <main className="dark:text-gray-400 bg-white dark:bg-gray-900 body-font">
       <div className="w-full bg-gray-800">
         <Header showMenu={showMenu} setShowMenu={setShowMenu} />
         <Menu showMenu={showMenu} setShowMenu={setShowMenu} />
