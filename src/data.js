@@ -15,6 +15,13 @@ export const projects = [
     image: " /images/dopadumpthumb.png",
     link: "https://dopaminedumpster.netlify.app",
   },
+  {
+    title: "DopamaXXing",
+    subTitle: "Random Intermittent Reward/Todo/Pomodoro",
+    description: "This is a hybrid app that I designed to apply Random Intermittent Rewards when completing tasks. Also there is a deepwork timer for intense study bouts along with breaks included. Will continue to devlop this app further",
+    image: "/images/dopamaxxing.png",
+    link: "https://dopamaxxing.netlify.app/"
+  }
 ];
 
 export const skills = [
