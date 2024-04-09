@@ -1,20 +1,20 @@
 export const projects = [
-  {
-    title: "React Reddit App",
-    subTitle: "React+Vite Stack",
-    description:
-      "This was my very first React project",
-    image: " /images/redditappthumb.png",
-    link: "https://statuesque-nasturtium-3f2f32.netlify.app",
-  },
-  {
-    title: "Dopamine Dumpster",
-    subTitle: "Movie/Show Finder App",
-    description:
-      "This is an absolutely wonderful way to find movies and shows so you can dump all your dopamine over a single weekend!",
-    image: " /images/dopadumpthumb.png",
-    link: "https://dopaminedumpster.netlify.app",
-  },
+  // {
+  //   title: "React Reddit App",
+  //   subTitle: "React+Vite Stack",
+  //   description:
+  //     "This was my very first React project",
+  //   image: " /images/redditappthumb.png",
+  //   link: "https://statuesque-nasturtium-3f2f32.netlify.app",
+  // },
+  // {
+  //   title: "Dopamine Dumpster",
+  //   subTitle: "Movie/Show Finder App",
+  //   description:
+  //     "This is an absolutely wonderful way to find movies and shows so you can dump all your dopamine over a single weekend!",
+  //   image: " /images/dopadumpthumb.png",
+  //   link: "https://dopaminedumpster.netlify.app",
+  // },
   {
     title: "DopamaXXing",
     subTitle: "Random Intermittent Reward/Todo/Pomodoro",
