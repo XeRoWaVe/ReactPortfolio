@@ -1,27 +1,24 @@
 import "./App.css";
-import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import About from './Components/About/About'
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
-import { useState, useCallback } from "react";
-import Header from "./Components/Header/Header";
-import Menu from "./Components/Menu/Menu";
+import Nav from "./Components/Nav/Nav";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const [showMenu, setShowMenu] = useState(false);
-
-
   return (
-    <main className="dark:text-gray-400 bg-white dark:bg-gray-900 body-font">
-      <div className="w-full bg-gray-800">
-        <Header showMenu={showMenu} setShowMenu={setShowMenu} />
-        <Menu showMenu={showMenu} setShowMenu={setShowMenu} />
+    <div className="">
+      <Nav />
+      <div className="">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
       </div>
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </main>
+    </div>
   );
 }
 
