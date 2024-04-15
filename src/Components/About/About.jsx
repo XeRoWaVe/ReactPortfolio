@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -16,18 +17,18 @@ const About = () => {
             
           </p>
           <div className="flex justify-center">
-            <a
-              href="contact"
+            <Link
+              to="/contact"
               className="inline-flex text-white bg-green-500   border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
               Work With Me
-            </a>
-            <a
-              href="projects"
+            </Link>
+            <Link
+              to="/projects"
               className="ml-4 inline-flex  hover:bg-gray-500 text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none dark:hover:bg-gray-700 dark:hover:text-white rounded text-lg"
             >
               See My Past Work
-            </a>
+            </Link>
 
           </div>
         </div>

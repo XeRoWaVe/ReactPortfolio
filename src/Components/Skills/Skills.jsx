@@ -1,4 +1,4 @@
-import { skills } from "../../data";
+import { skills } from "../../assets/data";
 import { AnimatePresence } from "framer-motion";
 
 const Skills = () => {
