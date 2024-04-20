@@ -35,7 +35,7 @@ const About = () => {
           <img
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 object-cover object-center rounded"
             alt="hero"
-            src={`/images/mugshot2023.jpeg`}
+            src={`/images/profilephoto.png`}
           />
       </div>
     </section>
