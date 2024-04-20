@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
           <img
-            className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 object-cover object-center rounded"
+            className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 object-cover object-center rounded mt-14"
             alt="hero"
             src={`/images/profilephoto.png`}
           />
