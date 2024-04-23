@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="">
       <div className="flex mt-20">
         <img
-          className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 object-cover object-center rounded mt-14"
+          className="lg:max-w-lg lg:w-full hidden lg:block md:w-1/2 w-5/6 object-cover object-center rounded mt-14"
           alt="hero"
           src={`/images/profilephoto.png`}
         />

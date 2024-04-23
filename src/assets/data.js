@@ -1,14 +1,5 @@
 export const projects = [
   {
-    title: "React Reddit App",
-    subTitle: "React+Vite Stack",
-    description:
-      "This was my very first React project",
-      tech: "react, tailwindcss, redux, vite, javascript",
-    image: " /images/redditappthumb.png",
-    link: "https://statuesque-nasturtium-3f2f32.netlify.app",
-  },
-  {
     title: "Dopamine Dumpster",
     subTitle: "Movie/Show Finder App",
     description:
@@ -24,7 +15,16 @@ export const projects = [
     tech: "react, tailwindcss, react-slider, typescript, vite",
     image: "/images/dopamaxxing.png",
     link: "https://dopamaxxing.netlify.app/"
-  }
+  },
+  {
+    title: "React Reddit App",
+    subTitle: "React+Vite Stack",
+    description:
+      "This was my very first React project",
+      tech: "react, tailwindcss, redux, vite, javascript",
+    image: " /images/redditappthumb.png",
+    link: "https://statuesque-nasturtium-3f2f32.netlify.app",
+  },
 ];
 
 export const skills = [

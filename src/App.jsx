@@ -16,9 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} errorElement={<ErrorPage />}/>
           <Route path="about" element={<About />} errorElement={<ErrorPage />}/>
-          {/* <Route path="skills" element={<Skills />} errorElement={<ErrorPage />} /> */}
           <Route path="projects" element={<Projects />} errorElement={<ErrorPage />} />
-          <Route path="contact" element={<Contact />} errorElement={<ErrorPage />} />
         </Routes>
       </div>
     </div>
